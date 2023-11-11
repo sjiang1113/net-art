@@ -1,9 +1,10 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: lightgray; 
    color:darkblue; 
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 canvas {
   display: block;
