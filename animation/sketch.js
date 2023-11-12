@@ -27,7 +27,12 @@ function draw() {
   fill(0); 
   textSize(20);
   textAlign(LEFT);
-  text(' ', 300, 300); 
+  text('<p> 
+      Softly falling from the heavens above,<br> 
+      Each flake unique, a tale of love.<br> 
+      Whispers of winter, a tranquil embrace,<br> 
+      Nature's artistry, a delicate grace.<br> 
+    </p> ', 300, 300); 
   fill (167,199,231);
   ellipse( x1, y, 10,10);
   ellipse( x2, y, 10,10);
