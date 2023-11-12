@@ -26,7 +26,7 @@ function draw() {
   y3+=2.5; 
   fill(0); 
   textSize(20);
-  text(' ', 300, 100); 
+  text(' ', 300, 300); 
   fill (167,199,231);
   ellipse( x1, y, 10,10);
   ellipse( x2, y, 10,10);
