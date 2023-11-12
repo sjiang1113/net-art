@@ -26,7 +26,7 @@ function draw() {
   y3+=2.5; 
   fill(0); 
   textSize(20);
-  text('Hello, World!', 200, 200); 
+  text(' ', 200, 200); 
   fill (167,199,231);
   ellipse( x1, y, 10,10);
   ellipse( x2, y, 10,10);
