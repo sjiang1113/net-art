@@ -2,12 +2,12 @@ var x1=10, x2=30, x3=50, x4=70, x5=90, x6=110, x7=130, x8=150, x9=170, x10=180, 
 var y=0, y1=20, y2=50, y3=30,y4=40; 
 var canvas; 
 function setup() {
-  canvas=createCanvas(windowWidth, windowHeight);
+  canvas=createCanvas(400, 400);
   canvas.position(0,0);
   canvas.style('z-index','-1');
 }
 function windowResize(){ 
-  resizeCanvas(windowWidth,windowHeight); 
+  resizeCanvas(400,400); 
 }
 
 function draw() {
