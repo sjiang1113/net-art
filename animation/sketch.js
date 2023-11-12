@@ -1,7 +1,13 @@
 var x1=10, x2=30, x3=50, x4=70, x5=90, x6=110, x7=130, x8=150, x9=170, x10=180, x11=210, x12=220, x13=250, x14=270, x15=280, x16=300, x17=330, x18=350, x19=370,x20=390;  
 var y=0, y1=20, y2=50, y3=30,y4=40; 
+var canvas; 
 function setup() {
-  createCanvas(400, 400);
+  canvas=createCanvas(windowwidth, windowheight);
+  canvas.position(0,0);
+  canvas.style('z-index','-1');
+}
+function windowResize(){ 
+  resizeCanvas(windowwidth,windowheight); 
 }
 
 function draw() {

@@ -1,10 +1,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: lightgray; 
-   color:darkblue; 
+  background-color: lightgray;
+  color:darkblue; 
   font-size: 20px;
-  text-align: left;
+  text-align: center;
+  
 }
 canvas {
   display: block;
