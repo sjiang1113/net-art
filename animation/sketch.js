@@ -7,7 +7,7 @@ function setup() {
   canvas.style('z-index','-1');
 }
 function windowResize(){ 
-  resizeCanvas(400,400); 
+  resizeCanvas(windowWidth,windowHeight); 
 }
 
 function draw() {
