@@ -27,14 +27,10 @@ function draw() {
   fill(0); 
   textSize(20);
   textAlign(LEFT);
-  text(' Softly falling from the heavens above, ' , 200, 300); 
-  fill(cornflowerblue); 
-  text('  Each flake unique, a tale of love.', 200,320); 
-  fill(cornflowerblue); 
-  text('Whispers of winter, a tranquil embrace,', 200,350); 
-  fill(cornflowerblue); 
-  text(' The artistry of Nature , a delicate grace.',200,370); 
-  fill(cornflowerblue); 
+  text(' Softly falling from the heavens above, ' , 100, 200); 
+  text('  Each flake unique, a tale of love.', 100,220); 
+  text('Whispers of winter, a tranquil embrace,', 100,250);
+  text(' The artistry of Nature , a delicate grace.',100,270); 
   fill (167,199,231);
   ellipse( x1, y, 10,10);
   ellipse( x2, y, 10,10);
