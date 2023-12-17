@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color:silver; 
 }
 @media screen and (max-width:992px){ 
 
