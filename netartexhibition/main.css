@@ -52,8 +52,8 @@ p{
 .inlineblock{ 
     display:inline-block;
 }
-@media screen and (max-wdith:992px) { 
-    .whole{ 
+@media screen and (max-width:992px) { 
+    .text .whole{ 
         max-width: 100%;
     }
 }
