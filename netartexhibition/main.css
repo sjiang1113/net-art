@@ -9,8 +9,15 @@ body{
 
 body{ 
     background-size: contain;
+    background-color:silver; 
 }
 }
+@media screen and (max-width:576px) { 
+body{ 
+    background-size:contain; 
+    background-color:silver; 
+} 
+} 
 h1{ 
     color:white; 
     font-family:georgia; 
