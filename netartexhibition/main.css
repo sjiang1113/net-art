@@ -1,0 +1,68 @@
+body{ 
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{ 
+    color:white; 
+    font-family:georgia; 
+    font-size: 50px;
+    text-align: left;
+}
+h2{ 
+    color:azure;  
+    font-family:georgia; 
+    font-size: 30px;
+    text-align: left;
+}
+
+h3{ 
+    color:black;
+    background-color:silver;
+    font-family: georgia;
+    font-size: 20px;
+    text-align: left;
+    max-width: 50%;
+}
+p{ 
+    color:black; 
+    background-color:silver;
+    font-family:georgia;
+    font-size: 20px;
+    text-align: left;
+}
+.whole { 
+    max-width:50%; 
+    background-color: silver;
+}
+.image { 
+    max-width: 40%;
+}
+.text{ 
+    max-width: 100%;
+    background-color: silver;
+    vertical-align:top; 
+    padding: 15px;
+}
+.imgwidth { 
+    max-width: 100%;
+    padding:10px;
+}
+.inlineblock{ 
+    display:inline-block;
+}
+@media screen and (max-wdith:992px) { 
+    .whole{ 
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:576px) { 
+    .image { 
+        max-width:100%; 
+    }
+    .text{ 
+        max-width:100%; 
+    }
+}
+    
